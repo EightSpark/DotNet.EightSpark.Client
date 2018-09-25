@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EightSpark.Client", "EightSpark.Client\EightSpark.Client.csproj", "{9F05B330-5DA3-413B-8857-6CE05699B246}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EightSpark.Client.Tests", "EightSpark.Client.UnitTests\EightSpark.Client.Tests.csproj", "{BE203F12-4C4F-4D12-A293-AAB3AD7C3679}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F05B330-5DA3-413B-8857-6CE05699B246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F05B330-5DA3-413B-8857-6CE05699B246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F05B330-5DA3-413B-8857-6CE05699B246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F05B330-5DA3-413B-8857-6CE05699B246}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE203F12-4C4F-4D12-A293-AAB3AD7C3679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE203F12-4C4F-4D12-A293-AAB3AD7C3679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE203F12-4C4F-4D12-A293-AAB3AD7C3679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE203F12-4C4F-4D12-A293-AAB3AD7C3679}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1266AA9F-896F-4B6C-B4FF-2BDAC3E23A9E}
+	EndGlobalSection
+EndGlobal
