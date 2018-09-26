@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>EightSpark.Client</id>
+    <version>1.2.0</version>
+    <title>EightSpark Client</title>
+    <authors>EightSpark Ltd</authors>
+    <owners>EightSpark Ltd</owners>
+    <licenseUrl>https://raw.githubusercontent.com/EightSpark/DotNet.EightSpark.Client/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/EightSpark/DotNet.EightSpark.Client</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/EightSpark/DotNet.EightSpark.Client/master/EightSpark.Client/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Client for accessing the EightSpark Rules API</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>EightSpark FeatureFlags</tags>
+	<frameworkAssemblies>
+		<frameworkAssembly assemblyName="System.Runtime.Caching" targetFramework="net40" />
+	</frameworkAssemblies>
+	<dependencies>
+		<dependency id="Newtonsoft.Json" version="9.0.1" />
+	</dependencies>
+  </metadata>
+</package>

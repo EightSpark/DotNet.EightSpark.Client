@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net;
 using System.Threading.Tasks;
 using NUnit.Framework;
 
@@ -70,7 +71,7 @@ namespace EightSpark.Client.UnitTests
             Assert.AreEqual(true, result);
 
             client.SetThrowExceptions(true);
-            Assert.Throws<Exception>(() => client.GetRule("does-not-exist", true));
+            Assert.Throws<WebException>(() => client.GetRule("does-not-exist", true));
         }
     }
 }

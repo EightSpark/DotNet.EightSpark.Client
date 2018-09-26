@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using NUnit.Framework;
@@ -63,6 +64,18 @@ namespace EightSpark.Client.UnitTests
 
             var filterResultCached = await client.GetRuleAsync("mf-hyperdrive", true, "in-times-of-great-need");
             Assert.AreEqual(false, filterResultCached);
+        }
+
+        [Test]
+        public async Task ErrorCases()
+        {
+            var client = new EightSparkClient("bfbbce5a-15c1-4d6d-85b9-42ab90e3abbf");
+
+            var result = await client.GetRuleAsync("does-not-exist", true);
+            Assert.AreEqual(true, result);
+
+            client.SetThrowExceptions(true);
+            Assert.ThrowsAsync<WebException>(async () => await client.GetRuleAsync("does-not-exist", true));
         }
     }
 }
