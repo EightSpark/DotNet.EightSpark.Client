@@ -2,13 +2,14 @@
 <package >
   <metadata>
     <id>EightSpark.Client</id>
-    <version>1.2.0</version>
+    <version>1.0.0</version>
     <title>EightSpark Client</title>
-    <authors>EightSpark Ltd</authors>
-    <owners>EightSpark Ltd</owners>
+    <authors>EightSpark</authors>
+    <owners>EightSpark</owners>
     <licenseUrl>https://raw.githubusercontent.com/EightSpark/DotNet.EightSpark.Client/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/EightSpark/DotNet.EightSpark.Client</projectUrl>
+    <projectUrl>https://www.eightspark.com</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/EightSpark/DotNet.EightSpark.Client/master/EightSpark.Client/icon.png</iconUrl>
+	<summary>EightSpark provides a SaaS solution for managing your Feature Flags and Configuration Management. This Nuget package is a client SDK to provide easy access to the EightSpark platform.</summary>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Client for accessing the EightSpark Rules API</description>
     <releaseNotes></releaseNotes>
